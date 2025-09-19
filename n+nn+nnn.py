@@ -1,0 +1,6 @@
+a=int(input("Input an integer: "))
+nlint("%s" % a)
+n2int("%s%s" % (aa))
+n3int("%s%s%s" % (a,a,a))
+print ("n", n1, "nn=", n2," nnn", n3)
+print ("sum (n+nn+nnn)", (n1+n2+n3))
