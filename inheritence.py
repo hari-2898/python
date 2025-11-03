@@ -13,7 +13,7 @@ class test(student):
         self.Marks=Marks
     def displayMarks(self):
         print("Total Marks :",self.Marks)
-r=(int(input("Enter The Roll Number :")))
+r=int(input("Enter The Roll Number :"))
 n=input("Enter The Name :")  
 c=input("Enter The Course :")
-m=(int(input("Enter The Marks :")))                   
+m=int(input("Enter The Marks :"))                  
