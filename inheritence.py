@@ -4,7 +4,7 @@ class student :
         self.name=name
         self.course=course
     def displaystudents(self):
-        print("Roll NUumber:",self.rollno)
+        print("Roll Number:",self.rollno)
         print("Name:",self.name) 
         print("Course:",self.course) 
 #inheritence
@@ -17,3 +17,4 @@ r=int(input("Enter The Roll Number :"))
 n=input("Enter The Name :")  
 c=input("Enter The Course :")
 m=int(input("Enter The Marks :"))                  
+
