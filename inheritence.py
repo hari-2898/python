@@ -16,5 +16,11 @@ class test(student):
 r=int(input("Enter The Roll Number :"))
 n=input("Enter The Name :")  
 c=input("Enter The Course :")
-m=int(input("Enter The Marks :"))                  
-
+m=int(input("Enter The Marks :")) 
+print("Result") 
+stud1=test()
+stud1.getdata(r,n,c)
+stud1.getmarks(m)
+stud1.displaystudents()
+stud1.displayMarks()
+       
